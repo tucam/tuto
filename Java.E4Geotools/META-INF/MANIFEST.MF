@@ -16,3 +16,12 @@ Require-Bundle: javax.inject;bundle-version="0.0.0",
   org.eclipse.core.runtime;bundle-version="0.0.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,
+ lib/geotools/gt-render-17.2.jar,
+ lib/geotools/gt-swt-17.2.jar,
+ lib/geotools/jts-1.13.jar,
+ lib/geotools/gt-api-17.2.jar,
+ lib/geotools/gt-opengis-17.2.jar,
+ lib/geotools/gt-metadata-17.2.jar,
+ lib/geotools/gt-referencing-17.2.jar,
+ lib/geotools/gt-main-17.2.jar
