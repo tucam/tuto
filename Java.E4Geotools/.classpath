@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry exported="true" kind="lib" path="lib/geotools/gt-data-17.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/geotools/gt-shapefile-17.2.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/geotools/gt-main-17.2.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/geotools/gt-referencing-17.2.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/geotools/gt-metadata-17.2.jar"/>
