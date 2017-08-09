@@ -3,7 +3,13 @@
   <children xsi:type="basic:TrimmedWindow" xmi:id="_6wlLccgZEeSyMNYR5xypkQ" elementId="E4Geotools.window.main" label="Eclipse 4 RCP Geotools Application" width="500" height="400">
     <children xsi:type="basic:PartSashContainer" xmi:id="_6wlLksgZEeSyMNYR5xypkQ" elementId="E4Geotools.partsashcontainer.sample">
       <children xsi:type="basic:PartStack" xmi:id="_6wlLk8gZEeSyMNYR5xypkQ" elementId="E4Geotools.partstack.sample">
-        <children xsi:type="basic:Part" xmi:id="_6wlLlMgZEeSyMNYR5xypkQ" elementId="E4Geotools.part.sample" contributionURI="bundleclass://E4Geotools/e4geotools.parts.SamplePart" label="Sample Part"/>
+        <children xsi:type="basic:Part" xmi:id="_6wlLlMgZEeSyMNYR5xypkQ" elementId="E4Geotools.part.sample" contributionURI="bundleclass://E4Geotools/e4geotools.parts.SamplePart" label="Sample Part">
+          <toolbar xmi:id="_B4NKIHzhEeeH8Yfj_3tY0g" elementId="E4Geotools.part.sample.toolbar">
+            <children xsi:type="menu:HandledToolItem" xmi:id="_EiQ8oHzhEeeH8Yfj_3tY0g" elementId="E4Geotools.part.sample.toolbar.ZoomIn" label="Zoom In" iconURI="platform:/plugin/E4Geotools/resources/zoom-in.png" type="Radio" command="_VVXQ8HziEeeH8Yfj_3tY0g"/>
+            <children xsi:type="menu:HandledToolItem" xmi:id="_n5bCAHziEeeH8Yfj_3tY0g" elementId="E4Geotools.part.sample.toolbar.ZoomOut" label="Zoom Out" iconURI="platform:/plugin/E4Geotools/resources/zoom-out.png" type="Radio" command="_Vt3QgHziEeeH8Yfj_3tY0g"/>
+            <children xsi:type="menu:HandledToolItem" xmi:id="_0XwyAHziEeeH8Yfj_3tY0g" elementId="E4Geotools.part.sample.toolbar.Pan" label="Pan" iconURI="platform:/plugin/E4Geotools/resources/pan.png" type="Radio" command="_ZBXBkHziEeeH8Yfj_3tY0g"/>
+          </toolbar>
+        </children>
       </children>
     </children>
     <mainMenu xmi:id="_6wlLicgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.main.menu">
@@ -29,6 +35,9 @@
   <handlers xmi:id="_6wlLhMgZEeSyMNYR5xypkQ" elementId="e4geotools.handler.saveCommand" contributionURI="bundleclass://E4Geotools/e4geotools.handlers.SaveHandler" command="_6wlLg8gZEeSyMNYR5xypkQ"/>
   <handlers xmi:id="_6wlLh8gZEeSyMNYR5xypkQ" elementId="e4geotools.handler.aboutCommand" contributionURI="bundleclass://E4Geotools/e4geotools.handlers.AboutHandler" command="_6wlLhsgZEeSyMNYR5xypkQ"/>
   <handlers xmi:id="_CLVAQHx6Eee59fAKZm6vsw" elementId="e4geotools.handler.AddShpFileHandler" contributionURI="bundleclass://E4Geotools/e4geotools.handlers.AddShpToMapHandler" command="_H6VxgHx6Eee59fAKZm6vsw"/>
+  <handlers xmi:id="_SlOEkHziEeeH8Yfj_3tY0g" elementId="e4geotools.handler.ZoomInMapHandler" contributionURI="bundleclass://E4Geotools/e4geotools.handlers.ZoomInMapHandler" command="_VVXQ8HziEeeH8Yfj_3tY0g"/>
+  <handlers xmi:id="_g_5lcHziEeeH8Yfj_3tY0g" elementId="e4geotools.handler.ZoomOutMapCommand" contributionURI="bundleclass://E4Geotools/e4geotools.handlers.ZoomOutMapHandler" command="_Vt3QgHziEeeH8Yfj_3tY0g"/>
+  <handlers xmi:id="_jyg3AHziEeeH8Yfj_3tY0g" elementId="e4geotools.handler.PanMapHandler" contributionURI="bundleclass://E4Geotools/e4geotools.handlers.PanMapHandler" command="_ZBXBkHziEeeH8Yfj_3tY0g"/>
   <bindingTables xmi:id="_6wlLfsgZEeSyMNYR5xypkQ" elementId="E4Geotools.bindingtable" bindingContext="_6wlLecgZEeSyMNYR5xypkQ">
     <bindings xmi:id="_6wlLf8gZEeSyMNYR5xypkQ" elementId="E4Geotools.keybinding.m1q" keySequence="M1+Q" command="_6wlLfMgZEeSyMNYR5xypkQ"/>
     <bindings xmi:id="_6wlLgsgZEeSyMNYR5xypkQ" elementId="E4Geotools.keybinding.m1o" keySequence="M1+O" command="_6wlLgMgZEeSyMNYR5xypkQ"/>
@@ -44,6 +53,9 @@
   <commands xmi:id="_6wlLg8gZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
   <commands xmi:id="_6wlLhsgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
   <commands xmi:id="_H6VxgHx6Eee59fAKZm6vsw" elementId="e4geotools.command.AddShpFileCommand" commandName="AddShpFileCommand"/>
+  <commands xmi:id="_VVXQ8HziEeeH8Yfj_3tY0g" elementId="e4geotools.command.ZoomInMapCommand" commandName="ZoomInMapCommand"/>
+  <commands xmi:id="_Vt3QgHziEeeH8Yfj_3tY0g" elementId="e4geotools.command.ZoomOutMapCommand" commandName="ZoomOutMapCommand"/>
+  <commands xmi:id="_ZBXBkHziEeeH8Yfj_3tY0g" elementId="e4geotools.command.PanMapCommand" commandName="PanMapCommand"/>
   <addons xmi:id="_6wlLcsgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_6wlLc8gZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_6wlLdMgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
