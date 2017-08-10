@@ -24,8 +24,6 @@
     </mainMenu>
     <trimBars xmi:id="_6wlLlcgZEeSyMNYR5xypkQ" elementId="E4Geotools.trimbar.top">
       <children xsi:type="menu:ToolBar" xmi:id="_6wlLlsgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.main.toolbar">
-        <children xsi:type="menu:HandledToolItem" xmi:id="_6wlLl8gZEeSyMNYR5xypkQ" elementId="E4Geotools.handleditem.trimbar.top.open" iconURI="platform:/plugin/E4Geotools/icons/sample.png" command="_6wlLgMgZEeSyMNYR5xypkQ"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_6wlLmMgZEeSyMNYR5xypkQ" elementId="E4Geotools.handleditem.trimbar.top.save" iconURI="platform:/plugin/E4Geotools/icons/save_edit.png" command="_6wlLg8gZEeSyMNYR5xypkQ"/>
         <children xsi:type="menu:HandledToolItem" xmi:id="_ayAbEHx6Eee59fAKZm6vsw" elementId="e4geotools.handledtoolitem.AddShpFileItem" label="Importer le fichier SHP" iconURI="platform:/plugin/E4Geotools/resources/upload.png" command="_H6VxgHx6Eee59fAKZm6vsw"/>
       </children>
     </trimBars>
